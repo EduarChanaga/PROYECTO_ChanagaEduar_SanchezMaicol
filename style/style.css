@@ -1,0 +1,164 @@
+body{
+    background-image: url('../image/fondoNegro.png');
+    width: calc(1920/1920*100vw);
+    height: calc(1080/1080*100vh);
+    margin: 0;   
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    font-family: 'Milight','Miright';
+}
+@font-face {
+    font-family: 'Milight';
+    src: url('../escritura/myriadpro-light.otf') format('woff')
+        
+}
+ @font-face{
+    font-family: 'Miright';
+    src: url('../escritura/MyriadPro-Regular.otf0') format('woff') ;
+ }
+div.subcontainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../image/Subfondo.png');
+    z-index: -1;
+}
+div.Logo1 {
+    position: absolute;
+    top: 20vw;
+    left: 45vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: desvanecer 0.8s ease-in-out forwards ;
+    animation-delay: 2s ;
+    animation-iteration-count: 2;
+    z-index:-1;
+}
+
+div.Media{
+    opacity: 0;
+    position: relative;
+    background-color: white;
+    transform: translate(25vw , 5vw);
+    border-radius: 10vh;
+    width: 50vw;
+    height:77vh;
+    animation: aparecer 0.5s forwards;
+    animation-delay: 4.5s;
+}   
+div.Lmedia{
+    position: absolute;
+    transform: translate(23vw,2vh);
+}
+div.Kario{
+    position: absolute;
+    transform: translate(8vw,12vh);
+    font-size: 3.5vb;
+    font-family: 'Miright';
+    text-align: center; 
+    vertical-align: middle;
+    width: 35vw;
+}
+
+#Data{
+    position: absolute;
+    font-family: 'Milight';
+    font-size: 2vb;
+    transform: translate(5vw,-4vh);
+}
+div.Usuario{
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    transform: translate(12vw,31vh);
+    
+}
+label.Usuario-input {
+    font-family: 'Milight';
+    font-size: 2.5vb;
+    display: block; /* Muestra el label en una línea diferente */
+     /* Añade un espacio entre el label y el input */
+}
+input.input{
+
+    border-radius: 3vh;
+    width: 30vw;
+    height: 5vh;
+    font-size: 2vh;
+    margin-left: -1vw; 
+    margin-top: 2vh;
+}
+div.Contraseña{
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    font-size: 1.6vh; 
+    margin-left: 12vw; /* Cambiar transform: translate() por margin-left */
+    margin-top: 42vh;
+}
+label.Contraseña-input {
+    font-family: 'Milight';
+    font-size: 2.5vb;
+    display: block; /* Muestra el label en una línea diferente */
+     /* Añade un espacio entre el label y el input */
+}
+input.contraseña{
+    border-radius: 34vh;
+    width: 30vw;
+    height: 5vh;
+    font-size: 2vh;
+    transform: translate(-1vw,1.5vh);
+}
+div.bottom-panel{
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+    transform: translate(14vw,52vh);
+}
+button#button-panel{
+    width: 20vw;
+    height: 8vh;
+    border-radius: 2vw;
+    transform: translate(2vw,2vh);
+    background-color: #FF7221;
+    color: white;
+    border-left: none;
+    border-right: none;
+    border-top:none;
+    border-bottom: none;
+    font-size: 2.5vb;
+}
+div.Problem-technical{
+    position: absolute;
+    font-family: 'Milight';
+    font-size: 1.4vb;
+    transform: translate(12.2vw,65vh);
+}
+
+@keyframes desvanecer {
+    from {
+      opacity: 1; 
+    }
+    to {
+      opacity: 0; 
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+  }
+@keyframes aparecer{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+

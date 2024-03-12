@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes</title>
+    <link rel="stylesheet" href="../style/reportes.css">
+</head>
+<body>
+
+
+<section class="container2">
+
+    <div id="navegador">
+        <ul>
+            <li><img src="../image/Añadir.png"><a href="#">Añadir</a></li>
+            <li><img src="../image/refrescar.png"><a href="./panelcentral.html">Refrescar</a></li>
+                <li><img src="../image/eliminar.png"><a href="#">Eliminar</a></li>
+                    <li> <img src="../image/Logo.png"> </li>
+                        <li><img src="../image/reportar.png"><a href="./reportes.html">Reportar</a></li>
+                        <li><img src="../image/ayuda.png"><a href="./ayuda.html">Ayuda</a></li>
+                    <li><img src="../image/confi.png"><a href="#"></a></li>
+                <li><img src="../image/noti.png"><a href="#"></a></li>
+            <li> <img src="../image/pp.png"> </li>
+        </ul>
+        <hr>
+    </div>
+    
+<br>
+</section>
+<br>
+<section class="container3">
+<center>
+    <div class="Panel1"> 
+        <p id="indicadores">Reportes</p>
+        <p id="Visualizacion">Aqui puede realizar reportes sobre un indicador especifico.</p>
+    </div>
+
+
+    <div class="Panel2">
+        <form action="" method="post">
+            
+            <br>
+             
+                <label class="texto" for="name">Nombre del indicador:</label>
+                <br>
+                <input class="nombre" type="text" id="name" name="user_name" required />
+             
+                           
+              <br><br>
+        
+              
+                <label class="texto" for="msg">Informacion de reporte:</label>
+                <br>
+                <textarea class="inf_report" id="msg" name="user_message" required></textarea>
+             
+
+
+              <br><br>
+           
+              <input type="checkbox" id="horns" name="horns"  />
+              <label class="texto" for="horns">Recibir respuesta por correo</label>
+     
+            <br>
+              <p class="button">
+                <button class="enviar" type="submit">Envíar</button>
+              </p>
+
+              <br>
+            
+          </form>
+    </div>
+</center>
+</section>
+    </body>
+    </html>
+    

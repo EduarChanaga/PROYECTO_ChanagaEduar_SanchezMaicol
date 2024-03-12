@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+
+        <div class="subcontainer"></div>
+
+        <div class="Logo1">
+           <img src="image/Logo.png" alt="1">    
+        </div>
+        
+        <div class="Media">
+            <div class="Lmedia"><img src="image/Sublogo.png" class="imgmedia"></div>
+
+            <div class="Kario">
+                <p>Bienvenido al panel digital de <br> Kario Media</p>
+                <p id="Data">Por favor ingresa los siguinets datos para ingresar a la plataforma</p>
+            </div>
+
+            <div class="Usuario">
+                <form action="Elementos/panelcentral.html" method="get">
+                    <label class="Usuario-input">
+                        Usuario
+                    </label>
+                    <input required type="search" class="input" placeholder="submit-information" oninvalid="this.setCustomValidity('Por favor, ingrese su usuario.')" oninput="setCustomValidity('')">
+            </div>
+            <div class="Contraseña">
+                <label class="Contraseña-input">
+                    Contraseña
+                </label>
+                    <input required type="password" class="contraseña" placeholder="enter-paswrord" oninvalid="this.setCustomValidity('Por favor, ingrese su contraseña.')" oninput="setCustomValidity('')">
+                     
+            </div>
+            <div class="bottom-panel">
+                <button type="submit" id="button-panel">Ingresar al Panel</button>
+            </div>
+            <div class="Problem-technical">Tienes problemas para ingresar? Por favor, contáctate con asistencia técnica lo más pronto posible.</div>
+         </form>
+        </div>
+    </section>
+</body>
+</html>
