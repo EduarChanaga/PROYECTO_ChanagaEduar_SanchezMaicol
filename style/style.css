@@ -1,6 +1,55 @@
 @media (min-width: 431px) {
 
-html{
-    background-image: url(../image/);
+    html{
+        background-image: url(../image/Subfondo.png);
+        background-color: black;
+        background-size: cover;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    img.logo {
+        width: 10vw;
+        margin: 15vw;
+        animation: appearDisappear 5s;
+        opacity: 0; 
+    }
+    
+    @keyframes appearDisappear {
+        0%, 20% {
+            opacity: 0; 
+        }
+        20%, 40% {
+            opacity: 1;
+        }
+        40%, 60% {
+            opacity: 1; 
+        }
+        60%, 80% {
+            opacity: 0; 
+        }
+        80%, 100% {
+            opacity: 0; 
+        }
+    }
+    
+
+    .overlay {
+        position: absolute;
+        width: 30vw;
+        height: 200px; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
 }
 }
