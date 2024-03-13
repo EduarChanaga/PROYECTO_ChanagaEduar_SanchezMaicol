@@ -1,3 +1,5 @@
+@media (min-width: 431px) {
+
 body{
     background-image: url('../image/fondoNegro.png');
     width: calc(1920/1920*100vw);
@@ -52,6 +54,11 @@ div.Media{
 div.Lmedia{
     position: absolute;
     transform: translate(23vw,2vh);
+    width: 1vw;
+}
+
+.imgmedia{
+    width: 5vw;
 }
 div.Kario{
     position: absolute;
@@ -162,3 +169,23 @@ div.Problem-technical{
     
 }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 430px) {
+    
+
+}

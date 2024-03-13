@@ -722,3 +722,9 @@ img.int6{
       stroke-dasharray: var(--porcentaje) 100;
   }
 }
+
+.menu{
+  width: 0px;
+  height: 0px;
+  color: white;
+}
