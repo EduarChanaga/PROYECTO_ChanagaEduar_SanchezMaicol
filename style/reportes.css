@@ -408,6 +408,13 @@ label.texto{
   #navegador ul li:nth-child(4) {
     display: none;
 }
+#navegador ul li:nth-child(7) {
+  display: none;
+}
+
+#navegador ul li:nth-child(8) {
+display: none;
+}
   label.texto{
     font-size: 5vw;
   }
