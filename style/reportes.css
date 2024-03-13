@@ -223,11 +223,14 @@ label.texto{
       stroke-dasharray: var(--porcentaje) 100;
   }
 }
-
 .menu{
   width: 0px;
   height: 0px;
   color: white;
+}
+.menu-icon{
+  color: rgb(255, 255, 255);
+  
 }
 
 }
@@ -381,7 +384,7 @@ label.texto{
   div.Panel2{
     position: relative;
     font-family: 'Miright','Milight';
-    width: 60vw;
+    width: 90vw;
     height: auto;
     border-color: black;
     border-width: 0.5vh;
@@ -406,14 +409,14 @@ label.texto{
   }
   
   .nombre{
-    width: 44vw;
+    width: 70vw;
     height: 5vh;
     background-color: rgb(218, 218, 218);
     border-radius: 0.5vw;
   }
   
   .inf_report{
-    width: 45vw;
+    width: 70vw;
     height: 15vh;
     background-color: rgb(218, 218, 218);
     border-radius: 0.5vw;
@@ -437,5 +440,9 @@ label.texto{
         stroke-dasharray: var(--porcentaje) 100;
     }
   }
-  
+  .menu-icon{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-left: 50vw;
+  }
   }

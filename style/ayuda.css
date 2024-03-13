@@ -249,7 +249,13 @@ p.numero{
 }
 
 
+.menu-icon{
+  color: white;
 }
+
+}
+
+
 
 
 
@@ -457,5 +463,9 @@ p.numero{
         stroke-dasharray: var(--porcentaje) 100;
     }
   }
-  
+  .menu-icon{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-left: 50vw;
+  } 
 }

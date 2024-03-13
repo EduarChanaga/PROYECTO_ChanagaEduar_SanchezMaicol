@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reportes</title>
-    <link rel="stylesheet" href="../style/reportes.css">
+    <title>Eliminar</title>
+    <link rel="stylesheet" href="../style/eliminar.css">
 </head>
 <body>
 
@@ -34,34 +34,47 @@
 <section class="container3">
 <center>
     <div class="Panel1"> 
-        <p id="indicadores">Reportes</p>
-        <p id="Visualizacion">Aqui puede realizar reportes sobre un indicador especifico.</p>
+        <p id="indicadores">Eliminar</p>
+        <p id="Visualizacion">Aqui puede eliminar un indicador especifico.</p>
     </div>
 
 
     <div class="Panel2">
-        <form action="./reportes.html">
+        <form action="./eliminar.html" >
             
             <br>
              
-                <label class="texto" for="name">Nombre del indicador:</label>
+                <label class="texto" for="name">Indicador</label>
                 <br>
-                <input class="nombre" type="text" id="name" name="user_name" required />
+                <select class="nombre2" name="lenguajes" id="lang" required>
+                    <option value="Modelador 3d">Modelador 3D</option>
+                    <option value="Finca Galeón">Finca Galeón</option>
+                    <option value="Colegios Privador">Colegios Privados</option>
+                    <option value="Electrodomésticos">Electrodomésticos</option>
+                    <option value="Estrato 2 - Floridablanca">Estrato 2 - Floridablanca</option>
+                    <option value="Jovenes en Acción">Jovenes en Acción</option>
+                    
+                  </select>
              
                            
               <br><br>
         
               
-                <label class="texto" for="msg">Informacion de reporte:</label>
+                <label class="texto" for="msg">Informe de eliminacion</label>
                 <br>
-                <textarea class="inf_report" id="msg" name="user_message" required></textarea>
+                <textarea class="nombre" id="msg" name="user_message" required></textarea>
              
 
 
               <br><br>
+
+              <label class="texto" for="name">Contraseña</label>
+                <br>
+                <input class="nombre" type="password" id="name" name="user_name" required />
+                <br><br>
            
               <input type="checkbox" id="horns" name="horns"  />
-              <label class="texto" for="horns">Recibir respuesta por correo</label>
+              <label class="texto" for="horns">Confirmar la eliminacion del indocador</label>
      
             <br>
               <p class="button">
