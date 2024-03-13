@@ -224,29 +224,31 @@ section.container2{
 }
 
 #navegador li:nth-child(7) img {
-padding: 0.2% 0% 0.2% 7%;
- text-decoration: none;
- color: black;
- vertical-align: middle;
- width:1.2vw;
-} 
-
-#navegador li:nth-child(8) img {
-padding: 0.2% 0% 0.2% 1%;
- text-decoration: none;
- color: black;
- vertical-align: middle;
- width:1.2vw;
-} 
-
-#navegador li:nth-child(9) img {
-padding: 0.2% 0% 0.2% 1%;
- text-decoration: none;
- color: black;
- vertical-align: middle;
- width:3vw;
-
-} 
+  position: absolute;
+  transform: translate(3vw,1.5vh);
+   text-decoration: none;
+   color: black;
+   vertical-align: middle;
+   width:1.2vw;
+  } 
+  
+  #navegador li:nth-child(8) img {
+    position: absolute;
+  transform: translate(5.5vw,1.5vh);
+   text-decoration: none;
+   color: black;
+   vertical-align: middle;
+   width:1.2vw;
+  } 
+  
+  #navegador li:nth-child(9) img {
+    transform: translate(8vw,0.1vh);
+    position: absolute;
+    text-decoration: none;
+     vertical-align: middle;
+    width:3vw;
+  
+  }
 #navegador li a:hover {
  color: #FF7221;
 }
