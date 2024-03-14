@@ -35,7 +35,7 @@ Resolución de pantalla: Para visualizar correctamente el contenido, se recomien
 Dispositivos móviles: Para verificar la compatibilidad y la apariencia en dispositivos móviles, se sugiere el uso de un iPhone 14 Pro Max. Esto asegurará que el proyecto esté optimizado para dispositivos móviles de alta gama. Además, se puede probar en otros dispositivos móviles populares para garantizar la compatibilidad general.
 
 # Instalación
-Obtener la URL del repositorio: En la plataforma de alojamiento del repositorio, como GitHub, encuentra la opción para clonar o descargar el repositorio. Allí encontrarás una URL que puedes copiar. La URL debería tener un formato similar a [https://github.com/usuario/repositorio.git.](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol?tab=readme-ov-file#requisitos)
+Obtener la URL del repositorio: En la plataforma de alojamiento del repositorio, como GitHub, encuentra la opción para clonar o descargar el repositorio. Allí encontrarás una URL que puedes copiar. La URL debería tener un formato similar a https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol?tab=readme-ov-file#requisitos
 
 Abrir la terminal (o línea de comandos): Dependiendo de tu sistema operativo, abre la terminal o línea de comandos. En Windows, puedes abrir la línea de comandos escribiendo "cmd" en el menú de inicio y presionando Enter. En Linux o macOS, puedes usar Terminal.
 
@@ -46,15 +46,39 @@ cd Documents
 Clonar el repositorio: Utiliza el comando git clone seguido de la URL que copiaste anteriormente. Por ejemplo:
 
 
-git clone [https://github.com/usuario/repositorio.git](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol?tab=readme-ov-file#requisitos)
+git clone https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol?tab=readme-ov-file#requisitos
 
 Esto creará una carpeta con el nombre del repositorio en el directorio actual y copiará todos los archivos del repositorio remoto en esa carpeta.
 
 Ingresar tus credenciales (si es necesario): Si el repositorio remoto requiere autenticación, es posible que se te solicite que ingreses tus credenciales de usuario y contraseña.
 
 # Uso
-Explica cómo utilizar el proyecto. Incluye instrucciones sobre cómo iniciar la aplicación, cómo navegar por ella y cualquier característica especial que deba conocer el usuario.
+Inicio de sesión:
+Abre el navegador web y accede a la página web.
+Selecciona la opción de inicio de sesión.
+Ingresa tu usuario y contraseña en los campos correspondientes y haz clic en el botón de "Iniciar sesión".
+Panel de Indicadores:
+Después de iniciar sesión, serás dirigido al panel de indicadores.
+Funcionalidades del Panel de Indicadores:
+Crear un Nuevo Indicador:
 
+Busca la opción para crear un nuevo indicador y sigue las instrucciones proporcionadas para añadirlo a la tabla de indicadores.
+Refrescar:
+
+Utiliza la opción de refrescar para actualizar la tabla de indicadores y mostrar los cambios más recientes.
+Eliminar Indicador:
+
+Selecciona un indicador específico que deseas eliminar y proporciona una razón para la eliminación, si es necesario.
+Reportes:
+
+Envía una solicitud de revisión para un indicador específico a través de la opción de reportes. Asegúrate de proporcionar detalles completos sobre el indicador que necesitas revisar.
+Ayuda:
+
+Encuentra la sección de ayuda donde puedes brindar tu número telefónico para que otros usuarios se comuniquen contigo en caso de necesidad.
+Foto de Perfil:
+Haz clic en tu foto de perfil para acceder a tu perfil personal.
+Desde allí, podrás ver y editar la información relacionada contigo.
+También tienes la opción de cerrar la sesión desde tu perfil para salir de la página web.
 # Estructura del Proyecto
 Proporciona una descripción de la estructura de archivos y carpetas del proyecto. Esto puede incluir una breve explicación de cada archivo y su propósito.
 
