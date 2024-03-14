@@ -252,8 +252,8 @@ p.numero{
 
 
 .menu-icon{
-  color: white;
-}
+  display: none;
+ }
 
 }
 
@@ -366,6 +366,10 @@ p.numero{
     #menu-icon {
         display: block;
     }
+
+    #navegador ul li:nth-child(4) {
+      display: none;
+  }
 
 
   p{

@@ -242,7 +242,7 @@ label.texto{
 }
 
 .menu-icon{
-  color: white;
+ display: none;
 }
 
 }
@@ -375,6 +375,9 @@ label.texto{
     #menu-icon {
         display: block;
     }
+    #navegador ul li:nth-child(4) {
+      display: none;
+  }
   
   p{
    text-align: center;
@@ -470,5 +473,5 @@ label.texto{
     font-weight: bold;
     padding-left: 50vw;
   }
-  
+
   }

@@ -728,3 +728,13 @@ img.int6{
   padding-left: 50vw;
 }
 
+.menu{
+  width: 0px;
+  height: 0px;
+  color: white;
+
+}
+
+.menu-icon{
+  display: none;
+ }
