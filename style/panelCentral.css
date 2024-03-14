@@ -1,3 +1,5 @@
+@media (min-width: 431px) {
+
 body{
   margin: 0%;
   width: calc(1920/1920*100vw);
@@ -16,112 +18,7 @@ body{
   font-family: 'Miright';
   src: url('../escritura/MyriadPro-Regular.otf0') format('woff') ;
 }
-/*
-body > section.container1 {
-  margin: 0;
-  padding: 0;
-  background-image: url('../image/fondoNegro.png');
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: calc(1920/1920*100vw);
-  height: calc(1080/1080*100vh);
-  animation: Pdesvanecer 0.3s ease-in-out forwards ;
-  animation-delay: 6s;
-  
-}
 
-*{
-  margin: 0px;
-}
-
-div.subcontainer{
-  margin: 0;
-  padding: 0;
-  background-image: url('../image/Subfondo.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: calc(1920/1920*100vw);
-  height: calc(1080/1080*100vh);
-}
-
-div.Logo1 {
-  position: absolute;
-  top: 20vw;
-  left: 45vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  animation: aparecer 0.1s ease forwards ;
-  animation-delay: 6s ;
-  
-}
-
-div.Media{
-  opacity: 1;
-  position: relative;
-  background-color: white;
-  transform: translate(25vw , 9vw);
-  border-radius: 12vh;
-  width: 51vw;
-  height:54vh;
-  animation: desvanecer 0.5s forwards;
-  animation-delay: 4s;
-  
-}   
-
-div.Lmedia{
-  position: absolute;
-  transform: translate(22.5vw,2vh);
-}
-
-div.into-login{
-  position: absolute;
-  width: 24vw;
-  height: 9vh;
-  transform: translate(14vw,8vw);
-  font-size: 5vb;
-  font-family: 'Miright';
-}
-
-div.Pedro{
-  position: absolute;
-  width: 15vh;
-  height: 15vh;
-  transform: translate(21vw,11vw);
-  z-index: 1;
-  
-}
-
-.imgpedrito{
-  width: 9vw;
-  height: auto;
-}
-
-.imgmedia{
-  width: 10vh;
-  height: auto;
-}
-
-div.Title{
-  width: 35vw;
-  height: 15vh;
-  transform: translate(7.7vw,20vw);
-}
-
-#Gomez{
-  font-family: 'Miright';
-  font-size: 4.5vb;
-}
-
-#Administrador{
-  font-family: 'Milight';
-  transform: translate(0.3vw,2vh);
-  font-size: 2.5vb;
-}
-*/
 section.container2{
   position: absolute;
   width: 100%;
@@ -224,31 +121,31 @@ section.container2{
 }
 
 #navegador li:nth-child(7) img {
-  position: absolute;
-  transform: translate(3vw,1.5vh);
-   text-decoration: none;
-   color: black;
-   vertical-align: middle;
-   width:1.2vw;
-  } 
-  
-  #navegador li:nth-child(8) img {
     position: absolute;
-  transform: translate(5.5vw,1.5vh);
-   text-decoration: none;
-   color: black;
-   vertical-align: middle;
-   width:1.2vw;
-  } 
-  
-  #navegador li:nth-child(9) img {
-    transform: translate(8vw,0.1vh);
-    position: absolute;
-    text-decoration: none;
+    transform: translate(3vw,1.5vh);
+     text-decoration: none;
+     color: black;
      vertical-align: middle;
-    width:3vw;
-  
-  }
+     width:1.2vw;
+    } 
+    
+    #navegador li:nth-child(8) img {
+      position: absolute;
+    transform: translate(5.5vw,1.5vh);
+     text-decoration: none;
+     color: black;
+     vertical-align: middle;
+     width:1.2vw;
+    } 
+    
+    #navegador li:nth-child(9) img {
+      transform: translate(8vw,0.1vh);
+      position: absolute;
+      text-decoration: none;
+       vertical-align: middle;
+      width:3vw;
+    
+    }
 #navegador li a:hover {
  color: #FF7221;
 }
@@ -267,86 +164,94 @@ section.container3{
 }
 div.Panel1{
   font-family: 'Miright','Milight';
+  position: relative;
+  transform: translate(9vw,0vh);
+  width: 80vw;
+  height: auto;
 }
 #indicadores{
   font-family: 'Miright';
-  font-size: 2vw;
+  font-size: 5vb;
+  
 }
 #Visualizacion{
   font-family: 'Milight';
-  font-size: 1vw;
-  
-
+  font-size: 2.5vb;
+  transform: translate(0vw,-4.5vh);
 }
-
+#Informacion{
+  position: absolute;
+  width: calc(1920/1920 *88.5vw) ;
+  height: calc(1080/1080*8.5vh);
+  transform: translate(0vw,-5vh);
+}
 #Informacion li{ 
-  
+  position: absolute;
   display: inline;
   font-weight: bold;
-  font-size: 1.9vb;
+  font-size: 1.2vw;
   font-family: 'Miright';
-  transform: translate(0,-7.5vh);
   
  }
  #Informacion li:nth-child(1) {
   position: absolute;
-  transform: translate(4.5vw,-3vh);
+  transform: translate(3.5vw,0vh);
   text-decoration: none;
   color: rgb(7, 6, 6);
   vertical-align: middle;
  }
  #Informacion li:nth-child(2) {
   position: absolute;
-  transform: translate(15vw,-3vh);
+  transform: translate(17vw,0vh);
   text-decoration: none;
   color: black;
   vertical-align: middle;
  }
  #Informacion li:nth-child(3) {
   position: absolute;
-  transform: translate(26.5vw,-3vh);
+  transform: translate(26vw,0vh);
   text-decoration: none;
   color: black;
   vertical-align: middle;
  }
  #Informacion li:nth-child(4) {
   position: absolute;
-  transform: translate(33.5vw,-3vh);
+  transform: translate(33vw,0vh);
   text-decoration: none;
   color: black;
   vertical-align: middle;
  }
  #Informacion li:nth-child(5) {
   position: absolute;
-  transform: translate(43.5vw,-3vh);
+  transform: translate(42.5vw,0vh);
   text-decoration: none;
   color: black;
   vertical-align: middle;
  }
  #Informacion li:nth-child(6) {
   position: absolute;
-  transform: translate(56.5vw,-3vh);
+  transform: translate(56.5vw,0vh);
   text-decoration: none;
   color: black;
   vertical-align: middle;
  }
  #Informacion li:nth-child(7) {
   position: absolute;
-  transform: translate(64vw,-3vh);
+  transform: translate(64vw,0vh);
   text-decoration: none;
   color: black;
   vertical-align: middle;
  }
  #Informacion li:nth-child(8) {
   position: absolute;
-  transform: translate(74vw,-3vh);
+  transform: translate(73vw,0vh);
   text-decoration: none;
   color: black;
   vertical-align: middle;
  }
  #Informacion li:nth-child(9) {
   position: absolute;
-  transform: translate(85vw,-3vh);
+  transform: translate(85vw,0vh);
   text-decoration: none;
   color: black;
   vertical-align: middle;
@@ -379,7 +284,7 @@ div.Panel1{
  }
  #D3 li:nth-child(2) {
   position: absolute;
-  transform: translate(9.5vw,1.5vh);
+  transform: translate(12vw,1.5vh);
   text-decoration: none;
   color: black;
   vertical-align: middle;
@@ -422,14 +327,14 @@ div.Panel1{
 
  #D3 li:nth-child(9) {
   position: absolute;
-  transform: translate(79.5vw,1.5vh);
+  transform: translate(79.5vw,-8.5vh);
   text-decoration: none;
   color: black;
   vertical-align: middle;
  }
  #Galeon{
   position: absolute;
-  transform: translate(10vh);
+ 
   width: calc(1920/1920*88.5vw);
   height: calc(1080/1080*8.5vh);
   border-radius: 5.2vh;
@@ -441,7 +346,7 @@ div.Panel1{
   display: inline;
   font-weight: bold;
   font-size: 1.1vw;
-  align-items: center;
+  
   font-family: 'Milight';
 }
 #Galeon li:nth-child(1) {
@@ -453,7 +358,7 @@ div.Panel1{
  }
  #Galeon li:nth-child(2) {
   position: absolute;
-  transform: translate(9.5vw,1.8vh);
+  transform: translate(12vw,1.8vh);
   text-decoration: none;
   color: black;
   vertical-align: middle;
@@ -496,30 +401,165 @@ div.Panel1{
 
  #Galeon li:nth-child(9) {
   position: absolute;
-  transform: translate(79.5vw,1.8vh);
+  transform: translate(80.5vw,-8.5vh);
   text-decoration: none;
   color: black;
   vertical-align: middle;
  }
+
+
+
+
  #Privados{
   position: absolute;
-  transform: translate(10vh);
   width: calc(1920/1920*88.5vw);
   height: calc(1080/1080*8.5vh);
   border-radius: 5.2vh;
   border:0.1vh solid black ;
   transform: translate(4vw,20vh);
  }
- #Electrodomesticos{
+ 
+ #Privados li{
+  display: inline;
+  font-weight: bold;
+  font-size: 1.1vw;
+  font-family: 'Milight';
+}
+#Privados li:nth-child(1) {
   position: absolute;
-  transform: translate(10vh);
+  transform: translate(0vw,1.5vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Privados li:nth-child(2) {
+  position: absolute;
+  transform: translate(12vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Privados li:nth-child(3) {
+  position: absolute;
+  transform: translate(24vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Privados li:nth-child(4) {
+  position: absolute;
+  transform: translate(30.5vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Privados li:nth-child(5) {
+  position: absolute;
+  transform: translate(42.5vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Privados li:nth-child(6) {
+  position: absolute;
+  transform: translate(52.6vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Privados li:nth-child(7) {
+  position: absolute;
+  transform: translate(61.5vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+
+ #Privados li:nth-child(9) {
+  position: absolute;
+  transform: translate(79.5vw,-8.5vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+
+
+
+
+#Electrodomesticos{
+  position: absolute;
   width: calc(1920/1920*88.5vw);
   height: calc(1080/1080*8.5vh);
   border-radius: 5.2vh;
   border:0.1vh solid black ;
   transform: translate(4vw,30vh);
  }
- #Estrato{
+ 
+ #Electrodomesticos li{
+  display: inline;
+  font-weight: bold;
+  font-size: 1.1vw;
+  font-family: 'Milight';
+}
+#Electrodomesticos li:nth-child(1) {
+  position: absolute;
+  transform: translate(0vw,1.5vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Electrodomesticos li:nth-child(2) {
+  position: absolute;
+  transform: translate(12vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Electrodomesticos li:nth-child(3) {
+  position: absolute;
+  transform: translate(24vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Electrodomesticos li:nth-child(4) {
+  position: absolute;
+  transform: translate(30.5vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Electrodomesticos li:nth-child(5) {
+  position: absolute;
+  transform: translate(42.5vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Electrodomesticos li:nth-child(6) {
+  position: absolute;
+  transform: translate(52.6vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Electrodomesticos li:nth-child(7) {
+  position: absolute;
+  transform: translate(61.5vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+
+ #Electrodomesticos li:nth-child(9) {
+  position: absolute;
+  transform: translate(79.5vw,-8.5vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ 
+#Estrato{
   position: absolute;
   transform: translate(10vh);
   width: calc(1920/1920*88.5vw);
@@ -527,6 +567,70 @@ div.Panel1{
   border-radius: 5.2vh;
   border:0.1vh solid black ;
   transform: translate(4vw,40vh);
+ }
+  
+ #Estrato li{
+  display: inline;
+  font-weight: bold;
+  font-size: 1.1vw;
+  font-family: 'Milight';
+}
+#Estrato li:nth-child(1) {
+  position: absolute;
+  transform: translate(0vw,1.5vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Estrato li:nth-child(2) {
+  position: absolute;
+  transform: translate(12vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Estrato li:nth-child(3) {
+  position: absolute;
+  transform: translate(24vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Estrato li:nth-child(4) {
+  position: absolute;
+  transform: translate(30.5vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Estrato li:nth-child(5) {
+  position: absolute;
+  transform: translate(42.5vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Estrato li:nth-child(6) {
+  position: absolute;
+  transform: translate(52.6vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Estrato li:nth-child(7) {
+  position: absolute;
+  transform: translate(61.5vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+
+ #Estrato li:nth-child(9) {
+  position: absolute;
+  transform: translate(79.5vw,-8.5vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
  }
  #Jovenes{
   position: absolute;
@@ -537,13 +641,75 @@ div.Panel1{
   border:0.1vh solid black ;
   transform: translate(4vw,50vh);
  }
- button#button-panel{
+ #Jovenes li{
+  display: inline;
+  font-weight: bold;
+  font-size: 1.1vw;
+  font-family: 'Milight';
+}
+#Jovenes li:nth-child(1) {
+  position: absolute;
+  transform: translate(0vw,1.5vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Jovenes li:nth-child(2) {
+  position: absolute;
+  transform: translate(12vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Jovenes li:nth-child(3) {
+  position: absolute;
+  transform: translate(24vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Jovenes li:nth-child(4) {
+  position: absolute;
+  transform: translate(30.5vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Jovenes li:nth-child(5) {
+  position: absolute;
+  transform: translate(42.5vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Jovenes li:nth-child(6) {
+  position: absolute;
+  transform: translate(52.6vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #Jovenes li:nth-child(7) {
+  position: absolute;
+  transform: translate(61.5vw,1.8vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+
+ #Jovenes li:nth-child(9) {
+  position: absolute;
+  transform: translate(79.5vw,-8.5vh);
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+ }
+ #button-panel{
   width: 20vw;
   height: 8vh;
   border-radius: 2vw;
   transform: translate(40vw,60vh);
-  background-color: #FF7221
-  ;
+  background-color: #FF7221;
   color: white;
   border-left: none;
   border-right: none;
@@ -554,22 +720,32 @@ div.Panel1{
 img.int1{
   position: absolute;
   transform: translate(93vw,2.5vh);
+  width: 2vw;
+  height: 3vh;
 }
 img.int2{
   position: absolute;
   transform: translate(93vw,12.5vh);
+  width: 2vw;
+  height: 3vh;
 }
 img.int3{
   position: absolute;
   transform: translate(93vw,22.5vh);
+  width: 2vw;
+  height: 3vh;
 }
 img.int4{
   position: absolute;
   transform: translate(93vw,32.5vh);
+  width: 2vw;
+  height: 3vh;
 }
 img.int5{
   position: absolute;
   transform: translate(93vw,42.5vh);
+  width: 2vw;
+  height: 3vh;
 }
 img.int6{
   position: absolute;
@@ -577,62 +753,53 @@ img.int6{
 }
 
 #D3 circle{
+  display: block;
   position: absolute;
   fill: none;
   stroke: rgb(184, 184, 187);
-  stroke-width: 0.4vw;
+  stroke-width: 0.3vw;
   stroke-dasharray: 100 100;
-  transform: rotate(-90deg) translate(-1vh,-1.5vw);
-  transform-origin: 5vh;
-  
+  transform: rotate(-90deg) translate(0vh,8vw) ;
+  transform-origin: 0vh; 
+  display: block;
   
 }
 #D3 circle:nth-child(2){
   
   stroke-dasharray: var(--porcentaje) 100;
   stroke: blue;
-  stroke-width: 0.4vw;
+  stroke-width: 0.35vw;
   animation: rellenar 2s linear forwards;
-  transform-origin: 5vh;
+  transform-origin: 0vh;
   
 }
 
 #D3 .porcentaje svg{
-  max-width: 17vw;
-  max-height: 12vh;
-  width:17vw;
-  height: 12vh;
-  transform: translate(-9vh,-2.2vw);
   position: absolute;
+ height: 100%;
+ width: 100%;
+ 
 }
 #D3 .porcentaje{
-  position: absolute;
-  width: 9vh;
-  height: 7vw;
-  transform: translate(70.5vw);
+  position: relative;
+  width: calc(1920/1920*10vw);
+  height: calc(1920/1920*11vh) ;
+  transform: translate(67.5vw,-2.5vh);
 }
 #D3 .porcentaje span{
-  font-size: 2.2vb;
-  width: 4.5vw;
-  height: 4vh;
   position: absolute;
-  top: 3.5vh ;
-  left: 0.3vw;
-  display:  flex ;
-  align-items: center;
-  justify-content: center;
-  transform: translate(0.3vw,-2.6vh);
- 
+  transform: translate(3.5vw,4vh);
+  font-size: 2vh;
 }
 
 #Galeon circle{
   position: absolute;
   fill: none;
   stroke: rgb(184, 184, 187);
-  stroke-width: 0.4vw;
+  stroke-width: 0.3vw;
   stroke-dasharray: 100 100;
-  transform: rotate(-90deg) translate(-1vh,-1.5vw);
-  transform-origin: 5vh;
+  transform: rotate(-90deg) translate(0vh,8vw) ;
+  transform-origin: 0vh; 
   
   
 }
@@ -640,101 +807,1253 @@ img.int6{
   
   stroke-dasharray: var(--porcentaje) 100;
   stroke: blue;
-  stroke-width: 0.4vw;
+  stroke-width: 0.35vw;
   animation: rellenar 2s linear forwards;
-  transform-origin: 5vh;
+  transform-origin: 0vh;
   
 }
 
 #Galeon .porcentaje svg{
-  max-width: 17vw;
-  max-height: 12vh;
-  width:17vw;
-  height: 12vh;
-  transform: translate(-9vh,-2.2vw);
   position: absolute;
-}
-#Galeon .porcentaje{
-  position: absolute;
-  width: 9vh;
-  height: 7vw;
-  transform: translate(70.5vw,0vh);
-}
-#Galeon .porcentaje span{
-  font-size: 2.2vb;
-  width: 4.5vw;
-  height: 4vh;
-  position: absolute;
-  top: 3.5vh ;
-  left: 0.3vw;
-  display:  flex ;
-  align-items: center;
-  justify-content: center;
-  transform: translate(0.3vw,-2.6vh);
+ height: 100%;
+ width: 100%;
  
 }
-
-/*
-@keyframes desvanecer {
-  from {
-    opacity: 1; 
-  }
-  to {
-    opacity: 0; 
-  }
-  50%{
-      opacity: 1;
-  }
-  100%{
-      opacity: 0;
-  }
+#Galeon .porcentaje{
+  position: relative;
+  width: calc(1920/1920*15vw);
+  height: calc(1920/1920*10vh) ;
+  transform: translate(67.5vw,-2.5vh);
 }
-@keyframes aparecer{
-  from{
-    opacity: 0;
-  }
-  to{
-    opacity: 1;
-  }
-  100%{
-    opacity: 0;
-  }
-}
-@keyframes Pdesvanecer{
-  form{
-    opacity: 1;
-  }
-  to{
-    opacity: 0;
-  }
-}
-@keyframes cont2{
-  form{
-    opacity: 0 ;
-  }
-  to{
-    opacity: 1;
-  }
-}*/
-@keyframes rellenar{
-  to{
-      stroke-dasharray: var(--porcentaje) 100;
-  }
+#Galeon .porcentaje span{
+  position: absolute;
+  transform: translate(4.5vw,4vh);
+  font-size: 2.2vh;
 }
 
-.menu-icon{
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  padding-left: 50vw;
+#Privados circle{
+  position: absolute;
+  fill: none;
+  stroke: rgb(184, 184, 187);
+  stroke-width: 0.3vw;
+  stroke-dasharray: 100 100;
+  transform: rotate(-90deg) translate(0vh,8vw) ;
+  transform-origin: 0vh;
+  
+}
+#Privados circle:nth-child(2){
+  
+  stroke-dasharray: var(--porcentaje) 100;
+  stroke: blue;
+  stroke-width: 0.35vw;
+  animation: rellenar 2s linear forwards;
+  transform-origin: 0vh;
+  
+}
+
+#Privados .porcentaje svg{
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ 
+}
+#Privados .porcentaje{
+  position: relative;
+  width: calc(1920/1920*15vw);
+  height: calc(1920/1920*10vh) ;
+  transform: translate(67.5vw,-2.5vh);
+}
+#Privados .porcentaje span{
+  position: absolute;
+  transform: translate(3.5vw,4vh);
+  font-size: 2vh;
+}
+
+#Electrodomesticos circle{
+  position: absolute;
+  fill: none;
+  stroke: rgb(184, 184, 187);
+  stroke-width: 0.3vw;
+  stroke-dasharray: 100 100;
+  transform: rotate(-90deg) translate(0vh,8vw) ;
+  transform-origin: 0vh;
+  
+}
+#Electrodomesticos circle:nth-child(2){
+  
+  stroke-dasharray: var(--porcentaje) 100;
+  stroke: blue;
+  stroke-width: 0.35vw;
+  animation: rellenar 2s linear forwards;
+  transform-origin: 0vh;
+  
+}
+
+#Electrodomesticos .porcentaje svg{
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ 
+}
+#Electrodomesticos .porcentaje{
+  position: relative;
+  width: calc(1920/1920*15vw);
+  height: calc(1920/1920*10vh) ;
+  transform: translate(67.5vw,-2.5vh);
+}
+#Electrodomesticos .porcentaje span{
+  position: absolute;
+  transform: translate(4.5vw,4vh);
+  font-size: 2.2vh;
+}
+
+#Estrato circle{
+  position: absolute;
+  fill: none;
+  stroke: rgb(184, 184, 187);
+  stroke-width: 0.3vw;
+  stroke-dasharray: 100 100;
+  transform: rotate(-90deg) translate(0vh,8vw) ;
+  transform-origin: 0vh;
+  
+}
+#Estrato circle:nth-child(2){
+  
+  stroke-dasharray: var(--porcentaje) 100;
+  stroke: blue;
+  stroke-width: 0.35vw;
+  animation: rellenar 2s linear forwards;
+  transform-origin: 0vh;
+  
+}
+
+#Estrato .porcentaje svg{
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ 
+}
+#Estrato .porcentaje{
+  position: relative;
+  width: calc(1920/1920*15vw);
+  height: calc(1920/1920*10vh) ;
+  transform: translate(67.5vw,-2.5vh);
+}
+
+#Estrato .porcentaje span{
+  position: absolute;
+  transform: translate(4.5vw,4vh);
+  font-size: 2.2vh;
+}
+
+#Jovenes circle{
+  position: absolute;
+  fill: none;
+  stroke: rgb(184, 184, 187);
+  stroke-width: 0.3vw;
+  stroke-dasharray: 100 100;
+  transform: rotate(-90deg) translate(0vh,8vw) ;
+  transform-origin: 0vh;
+  
+}
+#Jovenes circle:nth-child(2){
+  
+  stroke-dasharray: var(--porcentaje) 100;
+  stroke: blue;
+  stroke-width: 0.35vw;
+  animation: rellenar 2s linear forwards;
+  transform-origin: 0vh;
+  
+}
+
+#Jovenes .porcentaje svg{
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ 
+}
+#Jovenes .porcentaje{
+  position: relative;
+  width: calc(1920/1920*15vw);
+  height: calc(1920/1920*10vh) ;
+  transform: translate(67.5vw,-2.5vh);
+}
+#Jovenes .porcentaje span{
+  position: absolute;
+  transform: translate(4.5vw,4vh);
+  font-size: 2.2vh;
 }
 
 .menu{
   width: 0px;
   height: 0px;
   color: white;
-
 }
-
 .menu-icon{
   display: none;
  }
+@keyframes rellenar{
+  to{
+      stroke-dasharray: var(--porcentaje) 100;
+  }
+}
+
+#overlay-menu {
+  display: none;
+  position: fixed;
+  top: 6vw; 
+  right: 1vw; 
+  width: 15vw; 
+  height: 40vh; 
+  background-color: white; 
+  border: 2px solid black; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+  z-index: 998; 
+  border-radius: 2vw;
+}
+
+.menu:checked ~ #overlay-menu {
+  display: block; 
+}
+
+#navegador ul li:last-child label img {
+  position: relative; 
+  z-index: 999;
+}
+
+img.pedrito{
+  width: 5vw;
+}
+
+
+.boton-cerrar {
+  width: 6vw;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FF721B;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; 
+  font-size: 1vw;
+}
+
+.boton-perfil {
+  width: 6vw;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8c8c8c;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; 
+  font-size: 1vw;
+}
+
+.boton-cerrar:hover {
+  background-color: darkorange; /* Cambia el color de fondo al pasar el cursor por encima */
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 430px){
+
+  body{
+    margin: 0%;
+    width: calc(1920/1920*100vw);
+    height: calc(1080/1080*100vh);
+    position: relative;
+    font-family: 'Milight','Miright';
+  }
+  
+  @font-face {
+    font-family: 'Milight';
+    src: url('../escritura/myriadpro-light.otf') format('woff')
+        
+  }
+  
+  @font-face{
+    font-family: 'Miright';
+    src: url('../escritura/MyriadPro-Regular.otf0') format('woff') ;
+  }
+  
+  section.container2 {
+    position: relative;
+}
+
+#navegador {
+    text-align: center;
+}
+
+#navegador ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#navegador ul li {
+    display: inline;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+#navegador ul li img {
+    vertical-align: middle;
+    width: 20px;
+}
+
+#navegador ul li a {
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    cursor: pointer;
+}
+
+#navegador ul {
+    display: none;
+}
+
+#navegador ul li:nth-child(4) {
+  display: none;
+}
+
+#navegador ul li:nth-child(7) {
+display: none;
+}
+
+#navegador ul li:nth-child(8) {
+display: none;
+}
+
+#menu-toggle:checked + .menu-icon + #navegador ul {
+    display: block;
+}
+
+@media screen and (min-width: 600px) {
+    #navegador ul {
+        display: block;
+    }
+    .menu-icon {
+        display: none;
+    }
+}
+
+    #menu-btn:checked + #navegador ul {
+        display: block;
+    }
+
+    #navegador ul li {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+  
+  p{
+   font-size: 2vw;
+   text-align: center;
+  }
+  section.container3{
+    position: absolute;
+    width: calc(1920/1920*100vw);
+    height: calc(1080/1080*91vh);
+    top: 9vh;
+    animation: cont2 0.4s forwards;
+    animation-delay: 6s;
+    opacity: 1;
+  }
+  div.Panel1{
+    font-family: 'Miright','Milight';
+    position: relative;
+    transform: translate(9vw,0vh);
+    width: 80vw;
+    height: auto;
+  }
+  #indicadores{
+    font-family: 'Miright';
+    font-size: 5vb;
+    
+  }
+  #Visualizacion{
+    font-family: 'Milight';
+    font-size: 2.5vb;
+    transform: translate(0vw,-4.5vh);
+  }
+  #Informacion{
+    position: absolute;
+    width: calc(1920/1920 *88.5vw) ;
+    height: calc(1080/1080*8.5vh);
+    transform: translate(0vw,-5vh);
+  }
+  #Informacion li{ 
+    position: absolute;
+    display: inline;
+    font-weight: bold;
+    font-size: 1.2vw;
+    font-family: 'Miright';
+    
+   }
+   #Informacion li:nth-child(1) {
+    position: absolute;
+    transform: translate(3.5vw,0vh);
+    text-decoration: none;
+    color: rgb(7, 6, 6);
+    vertical-align: middle;
+   }
+   #Informacion li:nth-child(2) {
+    position: absolute;
+    transform: translate(17vw,0vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Informacion li:nth-child(3) {
+    position: absolute;
+    transform: translate(26vw,0vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Informacion li:nth-child(4) {
+    position: absolute;
+    transform: translate(33vw,0vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Informacion li:nth-child(5) {
+    position: absolute;
+    transform: translate(42.5vw,0vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Informacion li:nth-child(6) {
+    position: absolute;
+    transform: translate(56.5vw,0vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Informacion li:nth-child(7) {
+    position: absolute;
+    transform: translate(64vw,0vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Informacion li:nth-child(8) {
+    position: absolute;
+    transform: translate(73vw,0vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Informacion li:nth-child(9) {
+    position: absolute;
+    transform: translate(85vw,0vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   
+   #D3{
+    
+    position: absolute;
+    transform: translate(10vh);
+    width: calc(1920/1920*88.5vw);
+    height: calc(1080/1080*8.5vh);
+    border-radius: 5.2vh;
+    border:0.1vh solid black ;
+    transform: translate(4vw);
+   
+   }
+   #D3 li{
+    display: inline;
+    font-weight: bold;
+    font-size: 1.1vw;
+    align-items: center;
+    font-family: 'Milight';
+  }
+  #D3 li:nth-child(1) {
+    position: absolute;
+    transform: translate(0vw,1.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #D3 li:nth-child(2) {
+    position: absolute;
+    transform: translate(12vw,1.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #D3 li:nth-child(3) {
+    position: absolute;
+    transform: translate(24vw,1.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #D3 li:nth-child(4) {
+    position: absolute;
+    transform: translate(30.5vw,1.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #D3 li:nth-child(5) {
+    position: absolute;
+    transform: translate(42.5vw,1.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #D3 li:nth-child(6) {
+    position: absolute;
+    transform: translate(52.6vw,1.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #D3 li:nth-child(7) {
+    position: absolute;
+    transform: translate(61.5vw,1.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+  
+   #D3 li:nth-child(9) {
+    position: absolute;
+    transform: translate(79.5vw,-8.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Galeon{
+    position: absolute;
+   
+    width: calc(1920/1920*88.5vw);
+    height: calc(1080/1080*8.5vh);
+    border-radius: 5.2vh;
+    border:0.1vh solid black ;
+    transform: translate(4vw,10vh);
+   }
+   
+   #Galeon li{
+    display: inline;
+    font-weight: bold;
+    font-size: 1.1vw;
+    
+    font-family: 'Milight';
+  }
+  #Galeon li:nth-child(1) {
+    position: absolute;
+    transform: translate(0vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Galeon li:nth-child(2) {
+    position: absolute;
+    transform: translate(12vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Galeon li:nth-child(3) {
+    position: absolute;
+    transform: translate(24vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Galeon li:nth-child(4) {
+    position: absolute;
+    transform: translate(30.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Galeon li:nth-child(5) {
+    position: absolute;
+    transform: translate(42.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Galeon li:nth-child(6) {
+    position: absolute;
+    transform: translate(52.6vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Galeon li:nth-child(7) {
+    position: absolute;
+    transform: translate(61.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+  
+   #Galeon li:nth-child(9) {
+    position: absolute;
+    transform: translate(80.5vw,-8.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+  
+  
+  
+  
+   #Privados{
+    position: absolute;
+    width: calc(1920/1920*88.5vw);
+    height: calc(1080/1080*8.5vh);
+    border-radius: 5.2vh;
+    border:0.1vh solid black ;
+    transform: translate(4vw,20vh);
+   }
+   
+   #Privados li{
+    display: inline;
+    font-weight: bold;
+    font-size: 1.1vw;
+    font-family: 'Milight';
+  }
+  #Privados li:nth-child(1) {
+    position: absolute;
+    transform: translate(0vw,1.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Privados li:nth-child(2) {
+    position: absolute;
+    transform: translate(12vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Privados li:nth-child(3) {
+    position: absolute;
+    transform: translate(24vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Privados li:nth-child(4) {
+    position: absolute;
+    transform: translate(30.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Privados li:nth-child(5) {
+    position: absolute;
+    transform: translate(42.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Privados li:nth-child(6) {
+    position: absolute;
+    transform: translate(52.6vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Privados li:nth-child(7) {
+    position: absolute;
+    transform: translate(61.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+  
+   #Privados li:nth-child(9) {
+    position: absolute;
+    transform: translate(79.5vw,-8.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+  
+  
+  
+  
+  #Electrodomesticos{
+    position: absolute;
+    width: calc(1920/1920*88.5vw);
+    height: calc(1080/1080*8.5vh);
+    border-radius: 5.2vh;
+    border:0.1vh solid black ;
+    transform: translate(4vw,30vh);
+   }
+   
+   #Electrodomesticos li{
+    display: inline;
+    font-weight: bold;
+    font-size: 1.1vw;
+    font-family: 'Milight';
+  }
+  #Electrodomesticos li:nth-child(1) {
+    position: absolute;
+    transform: translate(0vw,1.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Electrodomesticos li:nth-child(2) {
+    position: absolute;
+    transform: translate(12vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Electrodomesticos li:nth-child(3) {
+    position: absolute;
+    transform: translate(24vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Electrodomesticos li:nth-child(4) {
+    position: absolute;
+    transform: translate(30.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Electrodomesticos li:nth-child(5) {
+    position: absolute;
+    transform: translate(42.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Electrodomesticos li:nth-child(6) {
+    position: absolute;
+    transform: translate(52.6vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Electrodomesticos li:nth-child(7) {
+    position: absolute;
+    transform: translate(61.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+  
+   #Electrodomesticos li:nth-child(9) {
+    position: absolute;
+    transform: translate(79.5vw,-8.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   
+  #Estrato{
+    position: absolute;
+    transform: translate(10vh);
+    width: calc(1920/1920*88.5vw);
+    height: calc(1080/1080*8.5vh);
+    border-radius: 5.2vh;
+    border:0.1vh solid black ;
+    transform: translate(4vw,40vh);
+   }
+    
+   #Estrato li{
+    display: inline;
+    font-weight: bold;
+    font-size: 1.1vw;
+    font-family: 'Milight';
+  }
+  #Estrato li:nth-child(1) {
+    position: absolute;
+    transform: translate(0vw,1.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Estrato li:nth-child(2) {
+    position: absolute;
+    transform: translate(12vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Estrato li:nth-child(3) {
+    position: absolute;
+    transform: translate(24vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Estrato li:nth-child(4) {
+    position: absolute;
+    transform: translate(30.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Estrato li:nth-child(5) {
+    position: absolute;
+    transform: translate(42.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Estrato li:nth-child(6) {
+    position: absolute;
+    transform: translate(52.6vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Estrato li:nth-child(7) {
+    position: absolute;
+    transform: translate(61.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+  
+   #Estrato li:nth-child(9) {
+    position: absolute;
+    transform: translate(79.5vw,-8.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Jovenes{
+    position: absolute;
+    transform: translate(10vh);
+    width: calc(1920/1920*88.5vw);
+    height: calc(1080/1080*8.5vh);
+    border-radius: 5.2vh;
+    border:0.1vh solid black ;
+    transform: translate(4vw,50vh);
+   }
+   #Jovenes li{
+    display: inline;
+    font-weight: bold;
+    font-size: 1.1vw;
+    font-family: 'Milight';
+  }
+  #Jovenes li:nth-child(1) {
+    position: absolute;
+    transform: translate(0vw,1.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Jovenes li:nth-child(2) {
+    position: absolute;
+    transform: translate(12vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Jovenes li:nth-child(3) {
+    position: absolute;
+    transform: translate(24vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Jovenes li:nth-child(4) {
+    position: absolute;
+    transform: translate(30.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Jovenes li:nth-child(5) {
+    position: absolute;
+    transform: translate(42.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Jovenes li:nth-child(6) {
+    position: absolute;
+    transform: translate(52.6vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #Jovenes li:nth-child(7) {
+    position: absolute;
+    transform: translate(61.5vw,1.8vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+  
+   #Jovenes li:nth-child(9) {
+    position: absolute;
+    transform: translate(79.5vw,-8.5vh);
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+   }
+   #button-panel{
+    width: 20vw;
+    height: 8vh;
+    border-radius: 2vw;
+    transform: translate(40vw,60vh);
+    background-color: #FF7221;
+    color: white;
+    border-left: none;
+    border-right: none;
+    border-top:none;
+    border-bottom: none;
+    font-size: 2.5vb;
+  }
+  img.int1{
+    position: absolute;
+    transform: translate(93vw,2.5vh);
+    width: 2vw;
+    height: 3vh;
+  }
+  img.int2{
+    position: absolute;
+    transform: translate(93vw,12.5vh);
+    width: 2vw;
+    height: 3vh;
+  }
+  img.int3{
+    position: absolute;
+    transform: translate(93vw,22.5vh);
+    width: 2vw;
+    height: 3vh;
+  }
+  img.int4{
+    position: absolute;
+    transform: translate(93vw,32.5vh);
+    width: 2vw;
+    height: 3vh;
+  }
+  img.int5{
+    position: absolute;
+    transform: translate(93vw,42.5vh);
+    width: 2vw;
+    height: 3vh;
+  }
+  img.int6{
+    position: absolute;
+    transform: translate(93vw,52.5vh);
+  }
+  
+  #D3 circle{
+    display: block;
+    position: absolute;
+    fill: none;
+    stroke: rgb(184, 184, 187);
+    stroke-width: 0.3vw;
+    stroke-dasharray: 100 100;
+    transform: rotate(-90deg) translate(0vh,8vw) ;
+    transform-origin: 0vh; 
+    display: block;
+    
+  }
+  #D3 circle:nth-child(2){
+    
+    stroke-dasharray: var(--porcentaje) 100;
+    stroke: blue;
+    stroke-width: 0.35vw;
+    animation: rellenar 2s linear forwards;
+    transform-origin: 0vh;
+    
+  }
+  
+  #D3 .porcentaje svg{
+    position: absolute;
+   height: 100%;
+   width: 100%;
+   
+  }
+  #D3 .porcentaje{
+    position: relative;
+    width: calc(1920/1920*10vw);
+    height: calc(1920/1920*11vh) ;
+    transform: translate(67.5vw,-2.5vh);
+  }
+  #D3 .porcentaje span{
+    position: absolute;
+    transform: translate(3.5vw,4vh);
+    font-size: 2vh;
+  }
+  
+  #Galeon circle{
+    position: absolute;
+    fill: none;
+    stroke: rgb(184, 184, 187);
+    stroke-width: 0.3vw;
+    stroke-dasharray: 100 100;
+    transform: rotate(-90deg) translate(0vh,8vw) ;
+    transform-origin: 0vh; 
+    
+    
+  }
+  #Galeon circle:nth-child(2){
+    
+    stroke-dasharray: var(--porcentaje) 100;
+    stroke: blue;
+    stroke-width: 0.35vw;
+    animation: rellenar 2s linear forwards;
+    transform-origin: 0vh;
+    
+  }
+  
+  #Galeon .porcentaje svg{
+    position: absolute;
+   height: 100%;
+   width: 100%;
+   
+  }
+  #Galeon .porcentaje{
+    position: relative;
+    width: calc(1920/1920*15vw);
+    height: calc(1920/1920*10vh) ;
+    transform: translate(67.5vw,-2.5vh);
+  }
+  #Galeon .porcentaje span{
+    position: absolute;
+    transform: translate(4.5vw,4vh);
+    font-size: 2.2vh;
+  }
+  
+  #Privados circle{
+    position: absolute;
+    fill: none;
+    stroke: rgb(184, 184, 187);
+    stroke-width: 0.3vw;
+    stroke-dasharray: 100 100;
+    transform: rotate(-90deg) translate(0vh,8vw) ;
+    transform-origin: 0vh;
+    
+  }
+  #Privados circle:nth-child(2){
+    
+    stroke-dasharray: var(--porcentaje) 100;
+    stroke: blue;
+    stroke-width: 0.35vw;
+    animation: rellenar 2s linear forwards;
+    transform-origin: 0vh;
+    
+  }
+  
+  #Privados .porcentaje svg{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   
+  }
+  #Privados .porcentaje{
+    position: relative;
+    width: calc(1920/1920*15vw);
+    height: calc(1920/1920*10vh) ;
+    transform: translate(67.5vw,-2.5vh);
+  }
+  #Privados .porcentaje span{
+    position: absolute;
+    transform: translate(3.5vw,4vh);
+    font-size: 2vh;
+  }
+  
+  #Electrodomesticos circle{
+    position: absolute;
+    fill: none;
+    stroke: rgb(184, 184, 187);
+    stroke-width: 0.3vw;
+    stroke-dasharray: 100 100;
+    transform: rotate(-90deg) translate(0vh,8vw) ;
+    transform-origin: 0vh;
+    
+  }
+  #Electrodomesticos circle:nth-child(2){
+    
+    stroke-dasharray: var(--porcentaje) 100;
+    stroke: blue;
+    stroke-width: 0.35vw;
+    animation: rellenar 2s linear forwards;
+    transform-origin: 0vh;
+    
+  }
+  
+  #Electrodomesticos .porcentaje svg{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   
+  }
+  #Electrodomesticos .porcentaje{
+    position: relative;
+    width: calc(1920/1920*15vw);
+    height: calc(1920/1920*10vh) ;
+    transform: translate(67.5vw,-2.5vh);
+  }
+  #Electrodomesticos .porcentaje span{
+    position: absolute;
+    transform: translate(4.5vw,4vh);
+    font-size: 2.2vh;
+  }
+  
+  #Estrato circle{
+    position: absolute;
+    fill: none;
+    stroke: rgb(184, 184, 187);
+    stroke-width: 0.3vw;
+    stroke-dasharray: 100 100;
+    transform: rotate(-90deg) translate(0vh,8vw) ;
+    transform-origin: 0vh;
+    
+  }
+  #Estrato circle:nth-child(2){
+    
+    stroke-dasharray: var(--porcentaje) 100;
+    stroke: blue;
+    stroke-width: 0.35vw;
+    animation: rellenar 2s linear forwards;
+    transform-origin: 0vh;
+    
+  }
+  
+  #Estrato .porcentaje svg{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   
+  }
+  #Estrato .porcentaje{
+    position: relative;
+    width: calc(1920/1920*15vw);
+    height: calc(1920/1920*10vh) ;
+    transform: translate(67.5vw,-2.5vh);
+  }
+  
+  #Estrato .porcentaje span{
+    position: absolute;
+    transform: translate(4.5vw,4vh);
+    font-size: 2.2vh;
+  }
+  
+  #Jovenes circle{
+    position: absolute;
+    fill: none;
+    stroke: rgb(184, 184, 187);
+    stroke-width: 0.3vw;
+    stroke-dasharray: 100 100;
+    transform: rotate(-90deg) translate(0vh,8vw) ;
+    transform-origin: 0vh;
+    
+  }
+  #Jovenes circle:nth-child(2){
+    
+    stroke-dasharray: var(--porcentaje) 100;
+    stroke: blue;
+    stroke-width: 0.35vw;
+    animation: rellenar 2s linear forwards;
+    transform-origin: 0vh;
+    
+  }
+  
+  #Jovenes .porcentaje svg{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   
+  }
+  #Jovenes .porcentaje{
+    position: relative;
+    width: calc(1920/1920*15vw);
+    height: calc(1920/1920*10vh) ;
+    transform: translate(67.5vw,-2.5vh);
+  }
+  #Jovenes .porcentaje span{
+    position: absolute;
+    transform: translate(4.5vw,4vh);
+    font-size: 2.2vh;
+  }
+  
+  
+ 
+  @keyframes rellenar{
+    to{
+        stroke-dasharray: var(--porcentaje) 100;
+    }
+  }
+  
+  .menu-icon{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-left: 50vw;
+  }
+
+  #overlay-menu {
+    display: none;
+  }
+  }
