@@ -34,17 +34,32 @@ Resolución de pantalla: Para visualizar correctamente el contenido, se recomien
 
 Dispositivos móviles: Para verificar la compatibilidad y la apariencia en dispositivos móviles, se sugiere el uso de un iPhone 14 Pro Max. Esto asegurará que el proyecto esté optimizado para dispositivos móviles de alta gama. Además, se puede probar en otros dispositivos móviles populares para garantizar la compatibilidad general.
 
-Instalación
-Describe cómo instalar y configurar el proyecto en un entorno local. Incluye pasos específicos, como clonar el repositorio, instalar dependencias, etc.
+# Instalación
+Obtener la URL del repositorio: En la plataforma de alojamiento del repositorio, como GitHub, encuentra la opción para clonar o descargar el repositorio. Allí encontrarás una URL que puedes copiar. La URL debería tener un formato similar a https://github.com/usuario/repositorio.git.
 
-Uso
+Abrir la terminal (o línea de comandos): Dependiendo de tu sistema operativo, abre la terminal o línea de comandos. En Windows, puedes abrir la línea de comandos escribiendo "cmd" en el menú de inicio y presionando Enter. En Linux o macOS, puedes usar Terminal.
+
+Navegar al directorio donde quieres clonar el repositorio: Usa el comando cd (change directory) para moverte al directorio donde deseas clonar el repositorio. Por ejemplo, si quieres clonarlo en tu carpeta de documentos, puedes escribir:
+
+
+cd Documents
+Clonar el repositorio: Utiliza el comando git clone seguido de la URL que copiaste anteriormente. Por ejemplo:
+
+
+git clone https://github.com/usuario/repositorio.git
+
+Esto creará una carpeta con el nombre del repositorio en el directorio actual y copiará todos los archivos del repositorio remoto en esa carpeta.
+
+Ingresar tus credenciales (si es necesario): Si el repositorio remoto requiere autenticación, es posible que se te solicite que ingreses tus credenciales de usuario y contraseña.
+
+# Uso
 Explica cómo utilizar el proyecto. Incluye instrucciones sobre cómo iniciar la aplicación, cómo navegar por ella y cualquier característica especial que deba conocer el usuario.
 
-Estructura del Proyecto
+# Estructura del Proyecto
 Proporciona una descripción de la estructura de archivos y carpetas del proyecto. Esto puede incluir una breve explicación de cada archivo y su propósito.
 
-Contribución
+# Contribución
 Invita a otros a contribuir al proyecto. Explica cómo pueden hacerlo, ya sea mediante la apertura de problemas (issues), la presentación de solicitudes de extracción (pull requests) o cualquier otra forma de colaboración que prefieras.
 
-Licencia
+# Licencia
 Indica el tipo de licencia bajo el cual se distribuye el proyecto. Asegúrate de incluir cualquier información adicional requerida por la licencia que hayas elegido.
