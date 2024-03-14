@@ -84,5 +84,26 @@ Haz clic en tu foto de perfil para acceder a tu perfil personal.
 Desde allí, podrás ver y editar la información relacionada contigo.
 También tienes la opción de cerrar la sesión desde tu perfil para salir de la página web.
 # Estructura del Proyecto
-Proporciona una descripción de la estructura de archivos y carpetas del proyecto. Esto puede incluir una breve explicación de cada archivo y su propósito.
+El proyecto está estructurado de la siguiente manera:
+
+Index: En este archivo se encuentra la página de inicio que muestra el formulario de inicio de sesión para el usuario.
+
+Bienvenida: Aquí se ubica la animación de bienvenida que se muestra al usuario al acceder al sistema.
+
+Carpeta "elementos":
+
+Añadir: Contiene el código de la página donde se crea nuevos indicadores.
+Ayuda: Aquí se encuentra el código de la página que proporciona información de contacto con una persona externa para asistencia.
+Eliminar: En esta carpeta está el código de la página que permite seleccionar un indicador para eliminarlo, junto con la opción de proporcionar las razones de eliminación.
+Central: Contiene el código de la página principal donde se pueden visualizar todos los indicadores disponibles.
+Reportes: En esta carpeta se encuentra el código de la página donde se pueden solicitar revisiones sobre un indicador específico.
+Carpeta "escritura":
+
+Tipo de letra: Aquí se encuentra el tipo de letra utilizado en las diferentes páginas del proyecto.
+Carpeta "image":
+
+Imágenes: Todas las imágenes utilizadas en las diferentes páginas del proyecto están almacenadas en esta carpeta.
+Carpeta "style":
+
+CSS: Contiene todos los archivos de estilo CSS utilizados para dar formato a las páginas del proyecto.
 
