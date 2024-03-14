@@ -1,17 +1,21 @@
 <h1>Propuesta Kario Media PM</h1>
 
 
-Breve descripción del proyecto.
+Un desarrollador FrontEnd es solicitado en hacer la continuación del proyecto de desarrollo de un Aplicativo Web que pueda mostrar el panel de gestionamiento de proyectos y sus módulos necesarios para la empresa “Kario Media”, la cual realiza licitaciones públicas y privadas de varios nichos de negocio. El equipo de UI/UX hace una entrega formal del primer flujo de entrada para la parte administrativa, en el cual va desde su login hasta el acceso a su panel administrativo.
 
-Contenido
-Demo
-Requisitos
-Instalación
-Uso
-Estructura del Proyecto
-Contribución
-Licencia
-Demo
+# Contenido
+
+- [Demo](#demo)
+- [Requisitos](#requisitos)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Contribución](#contribución)
+- [Licencia](#licencia)
+
+---
+
+# Demo
 Proporciona un enlace a una demostración en vivo o una captura de pantalla del proyecto.
 
 Requisitos
