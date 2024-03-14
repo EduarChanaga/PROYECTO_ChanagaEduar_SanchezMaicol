@@ -15,7 +15,17 @@
         justify-content: center;
         align-items: center;
         position: relative;
+        font-family: 'MyriadProRegular';
     }
+
+    @font-face {
+        font-family: 'MyriadProLight';
+        src: url('/fuentes/MyriadProLight.otf') format('truetype');
+      }
+      @font-face {
+        font-family: 'MyriadProRegular';
+        src: url('/fuentes/MyriadProRegular.ttf') format('truetype');
+      }
 
     img.logo {
         width: 10vw;

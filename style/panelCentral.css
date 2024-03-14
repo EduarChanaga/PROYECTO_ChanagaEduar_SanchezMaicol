@@ -5,19 +5,16 @@ body{
   width: calc(1920/1920*100vw);
   height: calc(1080/1080*100vh);
   position: relative;
-  font-family: 'Milight','Miright';
-}
-
-@font-face {
-  font-family: 'Milight';
-  src: url('../escritura/myriadpro-light.otf') format('woff')
-      
-}
-
-@font-face{
-  font-family: 'Miright';
-  src: url('../escritura/MyriadPro-Regular.otf0') format('woff') ;
-}
+  font-family: 'MyriadProRegular';
+    }
+    @font-face {
+        font-family: 'MyriadProLight';
+        src: url('/fuentes/MyriadProLight.otf') format('truetype');
+      }
+      @font-face {
+        font-family: 'MyriadProRegular';
+        src: url('/fuentes/MyriadProRegular.ttf') format('truetype');
+      }
 
 section.container2{
   position: absolute;
@@ -33,7 +30,7 @@ section.container2{
   font-weight: bold;
   font-size: 1.25vw;
   align-items: center;
-  font-family: 'Miright';
+ 
 }
 
 #navegador li:nth-child(1) img {
@@ -163,19 +160,19 @@ section.container3{
   opacity: 1;
 }
 div.Panel1{
-  font-family: 'Miright','Milight';
+
   position: relative;
   transform: translate(9vw,0vh);
   width: 80vw;
   height: auto;
 }
 #indicadores{
-  font-family: 'Miright';
+
   font-size: 5vb;
   
 }
 #Visualizacion{
-  font-family: 'Milight';
+
   font-size: 2.5vb;
   transform: translate(0vw,-4.5vh);
 }
