@@ -22,12 +22,17 @@ Un desarrollador FrontEnd es solicitado en hacer la continuación del proyecto d
 ![image](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol/assets/156428456/8b1e94ea-3572-4833-8f2f-c79bb4f2442f)
 ![image](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol/assets/156428456/32b2e010-8aad-4e17-93d9-a16fa8d1ec34)
 ![image](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol/assets/156428456/f5e06dc8-7f71-4df6-9c8a-aa7d6eafc832)
-![image](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol/assets/156428456/691acf8b-609e-4106-ba82-82ffd92989d2)
+![image](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol/assets/156428456/4c3ddd74-9afc-4fe6-aaed-b672911f3eb6)
+
 
 
 
 # Requisitos
-Enumera los requisitos previos necesarios para ejecutar el proyecto, como el navegador web recomendado, versiones específicas de software, etc.
+Navegador web compatible: Se recomienda el uso de Google Chrome como navegador principal. Sin embargo, el proyecto puede ser compatible con otros navegadores web modernos como Mozilla Firefox, Safari o Microsoft Edge. Se deben asegurar versiones actualizadas de estos navegadores para una experiencia óptima.
+
+Resolución de pantalla: Para visualizar correctamente el contenido, se recomienda una resolución de pantalla mínima de 1920x1080 píxeles. Esto garantizará una experiencia visual óptima sin distorsiones.
+
+Dispositivos móviles: Para verificar la compatibilidad y la apariencia en dispositivos móviles, se sugiere el uso de un iPhone 14 Pro Max. Esto asegurará que el proyecto esté optimizado para dispositivos móviles de alta gama. Además, se puede probar en otros dispositivos móviles populares para garantizar la compatibilidad general.
 
 Instalación
 Describe cómo instalar y configurar el proyecto en un entorno local. Incluye pasos específicos, como clonar el repositorio, instalar dependencias, etc.
