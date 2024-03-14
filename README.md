@@ -11,8 +11,7 @@ Un desarrollador FrontEnd es solicitado en hacer la continuación del proyecto d
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Estructura del Proyecto](#estructura-del-proyecto)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
+
 
 ---
 
@@ -83,6 +82,7 @@ Foto de Perfil:
 Haz clic en tu foto de perfil para acceder a tu perfil personal.
 Desde allí, podrás ver y editar la información relacionada contigo.
 También tienes la opción de cerrar la sesión desde tu perfil para salir de la página web.
+
 # Estructura del Proyecto
 El proyecto está estructurado de la siguiente manera:
 
