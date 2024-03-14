@@ -1,5 +1,5 @@
-Nombre del Proyecto
-![image](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol/assets/156428456/5684413d-57df-428b-af73-7a4e38709796)
+<h1>Propuesta Kario Media PM</h1>
+
 
 Breve descripción del proyecto.
 
