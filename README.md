@@ -16,9 +16,17 @@ Un desarrollador FrontEnd es solicitado en hacer la continuación del proyecto d
 ---
 
 # Demo
-Proporciona un enlace a una demostración en vivo o una captura de pantalla del proyecto.
+![image](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol/assets/156428456/891a2e23-c0dd-4087-b317-3ba16274479b)
+![image](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol/assets/156428456/af7ff027-0429-450c-817b-4cd579fe0878)
+![image](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol/assets/156428456/36848078-bb7d-4dcb-b2bc-3b66adaea142)
+![image](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol/assets/156428456/8b1e94ea-3572-4833-8f2f-c79bb4f2442f)
+![image](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol/assets/156428456/32b2e010-8aad-4e17-93d9-a16fa8d1ec34)
+![image](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol/assets/156428456/f5e06dc8-7f71-4df6-9c8a-aa7d6eafc832)
+![image](https://github.com/EduarChanaga/PROYECTO_ChanagaEduar_SanchezMaicol/assets/156428456/691acf8b-609e-4106-ba82-82ffd92989d2)
 
-Requisitos
+
+
+# Requisitos
 Enumera los requisitos previos necesarios para ejecutar el proyecto, como el navegador web recomendado, versiones específicas de software, etc.
 
 Instalación
