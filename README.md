@@ -1,3 +1,4 @@
+
 <h1>Propuesta Kario Media PM</h1>
 
 
@@ -57,24 +58,27 @@ Inicio de sesión:
 Abre el navegador web y accede a la página web.
 Selecciona la opción de inicio de sesión.
 Ingresa tu usuario y contraseña en los campos correspondientes y haz clic en el botón de "Iniciar sesión".
+
 Panel de Indicadores:
 Después de iniciar sesión, serás dirigido al panel de indicadores.
 Funcionalidades del Panel de Indicadores:
+
+
 Crear un Nuevo Indicador:
-
 Busca la opción para crear un nuevo indicador y sigue las instrucciones proporcionadas para añadirlo a la tabla de indicadores.
+
 Refrescar:
-
 Utiliza la opción de refrescar para actualizar la tabla de indicadores y mostrar los cambios más recientes.
+
 Eliminar Indicador:
-
 Selecciona un indicador específico que deseas eliminar y proporciona una razón para la eliminación, si es necesario.
+
 Reportes:
-
 Envía una solicitud de revisión para un indicador específico a través de la opción de reportes. Asegúrate de proporcionar detalles completos sobre el indicador que necesitas revisar.
-Ayuda:
 
+Ayuda:
 Encuentra la sección de ayuda donde puedes brindar tu número telefónico para que otros usuarios se comuniquen contigo en caso de necesidad.
+
 Foto de Perfil:
 Haz clic en tu foto de perfil para acceder a tu perfil personal.
 Desde allí, podrás ver y editar la información relacionada contigo.
@@ -82,8 +86,3 @@ También tienes la opción de cerrar la sesión desde tu perfil para salir de la
 # Estructura del Proyecto
 Proporciona una descripción de la estructura de archivos y carpetas del proyecto. Esto puede incluir una breve explicación de cada archivo y su propósito.
 
-# Contribución
-Invita a otros a contribuir al proyecto. Explica cómo pueden hacerlo, ya sea mediante la apertura de problemas (issues), la presentación de solicitudes de extracción (pull requests) o cualquier otra forma de colaboración que prefieras.
-
-# Licencia
-Indica el tipo de licencia bajo el cual se distribuye el proyecto. Asegúrate de incluir cualquier información adicional requerida por la licencia que hayas elegido.
