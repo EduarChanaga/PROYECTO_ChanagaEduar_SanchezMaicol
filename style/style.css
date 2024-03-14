@@ -20,7 +20,7 @@
     img.logo {
         width: 10vw;
         margin: 15vw;
-        animation: appearDisappear 5s;
+        animation: appearDisappear 4s;
         opacity: 0; 
     }
     
@@ -37,19 +37,88 @@
         60%, 80% {
             opacity: 0; 
         }
-        80%, 100% {
-            opacity: 0; 
+        80%, 90% {
+            opacity: 1; 
+        }
+        100%{
+            opacity: 0;
         }
     }
     
 
     .overlay {
         position: absolute;
-        width: 30vw;
-        height: 200px; 
+        width: 40vw;
+        height: 80vh; 
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: white;
+        animation: cuadrito 7s;
+        border-radius: 2vw;
 }
+
+
+
+
+@keyframes cuadrito {
+    0%, 20% {
+        opacity: 0; 
+    }
+    20%, 40% {
+        opacity: 0;
+    }
+    40%, 60% {
+        opacity: 0; 
+    }
+    60%, 80% {
+        opacity: 0; 
+    }
+    80%, 100% {
+        opacity: 1; 
+    }
+}
+
+img.sublogo{
+    margin-top: 2vw;
+    width: 5vw;
+}
+}
+
+p.bienvenido{
+
+    font-size: 2vw;
+}
+
+p.subtitle{
+
+    font-size: 1vw;
+    margin-top: -1vw;
+}
+
+form.login{
+    text-align: left;
+    margin-left: 5vw;
+}
+label.texto{
+    font-size: 1vw;
+
+}
+input.nombre{
+    width: 30vw;
+    height:4vh;
+    border-radius: 1vw;
+    margin-top: 0.6vw;
+}
+
+button.enviar{
+    text-align: center;
+    width: 15vw;
+    height: 6vh;
+    margin-left:20% ;
+    color: white;
+    background-color: #FF7221;
+    font-size: 1vw;
+    border: 0;
+    border-radius: 1.5vw;
 }
